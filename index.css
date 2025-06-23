@@ -1,0 +1,367 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+  }
+  /* #mainbox,
+  #transaction,
+  #transaction h2,
+  .text,
+  #text_details,
+  .amount,
+  #explain,
+  #amount_details {
+    border: 1px solid red;
+  } */
+  #mainbox {
+    width: 100%;
+    height: 710px;
+  }
+  
+  h1 {
+    margin: auto;
+    margin-top: 2px;
+    /* width: 19%; */
+    width: 20%;
+    /*(class pc width) */
+    height: 34px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-weight: 700;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 32px;
+  }
+  
+  p {
+    width: 11%;
+    height: 32px;
+    /* margin-left: 515px; */
+    margin-left: 495px;
+    /*(class pc margin)  */
+    margin-top: 25px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #balance {
+    width: 11%;
+    height: 32px;
+    /* margin-left: 515px; */
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  
+  h2 {
+    width: 11%;
+    height: 32px;
+    /* margin-left: 515px; */
+    margin-left: 495px;
+    /*(class pc margin)  */
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  
+  #finance_tracker {
+    margin: auto;
+    margin-top: 20px;
+    width: 27%;
+    height: 100px;
+    display: flex;
+    border: 3px solid black;
+    box-shadow: 0 0 5px black;
+  }
+  
+  .income {
+    width: 31%;
+    height: 82px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  
+  .expense {
+    width: 31%;
+    height: 82px;
+    margin-top: 0px;
+    margin-left: 90px;
+  }
+  
+  .income p {
+    width: 61%;
+    height: 25px;
+    margin-left: 21px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .expense p {
+    width: 65%;
+    height: 25px;
+    margin-left: 21px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .income #income {
+    width: 61%;
+    height: 25px;
+    /* margin-left: 30px; */
+    margin-top: 42px;
+    font-size: 20px;
+    color: #11f311;
+    font-weight: 900;
+  }
+  
+  .income h2 {
+    width: 61%;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 20px;
+    color: #11f311;
+    font-weight: 900;
+  }
+  
+  .expense #expense {
+    width: 61%;
+    height: 25px;
+    /* margin-left: 30px; */
+    margin-top: 42px;
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: 900;
+  }
+  
+  .expense h2 {
+    width: 61%;
+    height: 25px;
+    margin-left: 27px;
+    margin-top: -5px;
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: 900;
+  }
+  
+  /* #History {
+    width: 20%;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 0px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    /* display: flex; */
+  /* } */
+  
+  hr {
+    width: 27%;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
+  #transaction {
+    width: 27%;
+    height: 340px;
+    margin: auto;
+    margin-top: 5px;
+  }
+  
+  #transaction h2 {
+    /* width: 75%;*/
+    width: 77%;
+    /*(class pc width)*/
+    height: 34px;
+    margin-top: 10px;
+    font-family: "Acme", sans-serif;
+    margin-left: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .text {
+    width: 95%;
+    height: 95px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .text p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  
+  #text_details {
+    width: 95%;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 23px;
+    padding-left: 15px;
+    border: 1px solid rgb(207, 207, 207);
+  }
+  
+  .amount {
+    width: 95%;
+    height: 107px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .amount p {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+  }
+  
+  .amount #explain {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  #amount_details {
+    width: 95%;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 23px;
+    padding-left: 15px;
+    margin-top: 10px;
+    border: 1px solid rgb(207, 207, 207);
+  }
+  
+  #submit {
+    width: 90%;
+    background-color: rgb(65, 170, 189);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 16px 16px;
+    cursor: pointer;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  
+  #History {
+    width: 100%;
+    margin-left: -28px;
+    margin-top: 20px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    overflow-y: auto;
+  }
+  
+  #History h2 {
+    margin-bottom: 20px;
+  }
+  
+  #historybox {
+    width: 25%;
+    max-height: 180px;
+    margin-left: 550px;
+    border: 1px solid transparent;
+    display: block;
+  }
+  
+  #historybox p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 95px;
+    padding-left: 5px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #mainbox {
+        width: 99%;
+        height: 736px;
+    }
+  
+    h1 {
+        margin: auto;
+        margin-top: 14px;
+        width: 65%;
+        font-size: 25px;
+    }
+  
+    p {
+        width: 35%;
+        margin-left: 33px;
+        margin-top: 26px;
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+  
+    #balance {
+        width: 35%;
+        /* margin-left: 33px; */
+        margin-top: 26px;
+        font-size: 30px;
+    }
+  
+    h2 {
+        margin-left: 34px;
+    }
+  
+    #finance_tracker {
+        margin-left: 40px;
+        width: 78%;
+    }
+  
+    .expense {
+        margin-left: 42px;
+    }
+  
+    #History {
+        margin-left: 9px;
+    }
+  
+    hr {
+        width: 78%;
+        margin-left: 43px;
+    }
+  
+    #transaction h2 {
+        width: 285%;
+        margin-left: -88px;
+        margin-bottom: 35px;
+    }
+  
+    .text {
+        margin-left: -93px;
+        width: 270%;
+    }
+  
+    .amount {
+        width: 270%;
+        margin-top: -11px;
+        margin-left: -91px;
+    }
+  
+    #submit {
+        width: 290%;
+        margin-left: -95px;
+    }
+  
+    #historybox {
+        margin-left: 38px;
+    }
+  }

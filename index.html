@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="index.css">
+<title>Expense Tracker</title>
+</head>
+<body>
+<div id="mainbox">
+  <h1>Expense Tracker</h1>
+  <p>My Balance</p>
+  <h2>₹<span id="balance">0000</span></h2>
+  <div id="finance_tracker">
+    <div class="income">
+      <p>Income</p>
+      <h2>₹<span id="income">0000</span></h2>
+    </div>
+    <div class="expense">
+      <p>Expense</p>
+      <h2>₹<span id="expense">0000</span></h2>
+    </div>
+  </div>
+  <div id="History">
+    <h2>History</h2>
+    <span id="historybox">
+      <!-- <p>Sujal</p>
+        <p>100000000</p> -->
+    </span>
+  </div>
+  <hr />
+  <div id="transaction">
+    <h2>Add New Transcation</h2>
+    <div class="text">
+      <p>Text</p>
+      <input type="text" id="text_details" placeholder="Enter Text..." />
+    </div>
+    <div class="amount">
+      <p>Amount</p>
+      <span id="explain">(negative-expense , positive-income)</span>
+      <input type="text" id="amount_details" placeholder="Enter Amount.." />
+    </div>
+    <button id="submit">Add Transcation</button>
+  </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
